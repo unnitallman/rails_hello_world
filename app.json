@@ -1,0 +1,22 @@
+{
+  "name": "Rails Hello World",
+  "scripts": {},
+  "stack": "heroku-22",
+  "env": {
+    "SECRET_KEY_BASE": {
+      "required": false,
+      "value": "0e649990875d727097d4df6a82ccc6cff7a2d8b49e1eb6697a2a36134d58969d74328edc018747e28a4bf73c077687c15783dfed7d45e76ed60ce83b0ce97b27"
+    },
+    "RAILS_ENV": {
+      "value": "staging"
+    },
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ]
+}
